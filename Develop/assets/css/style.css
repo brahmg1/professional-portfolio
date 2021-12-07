@@ -1,0 +1,47 @@
+/* Universal Selector Styling */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* End Universal Selector Styling */
+
+/* Body Background Color */
+body {
+    background-color: lightskyblue;
+}
+/* End Body Background Color */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* Header and Navigation Styling */
+header {
+    padding: 10px;
+    background-color: lightskyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid black;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    display: flex;
+    padding: 20px;
+}
