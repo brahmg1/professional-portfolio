@@ -99,17 +99,52 @@ content section {
     align-items: flex-start;
 }
 
+.work {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.work-1 img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    border: 5px solid black;
+}
+
 .contact-me {
     background-color: white;
     color: black;
-    display: flex;
     flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
-    padding: 20px;
-    line-height: 1.5;
-    align-items: flex-start;
+}
+
+.contact-me h2 {
+    padding: 10px 0 10px 0;
 }
 
 .contact-me div {
-    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.contact-me div ul {
+    display: flex;
+}
+
+.contact-me div ul li {
+    display: flex;
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    border-top: 2px solid black;
+    text-align: center;
 }
