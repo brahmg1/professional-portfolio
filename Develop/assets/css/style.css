@@ -90,7 +90,7 @@ content section {
 
 .my-work {
     background-color: lightgrey;
-    display: flex;
+
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
@@ -107,7 +107,7 @@ content section {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    flex-direction: column;
+   
 }
 
 .main-work {
@@ -134,9 +134,13 @@ content section {
 .other-work img {
     width: 300px;
     height: 300px;
-    object-fit: cover;
+    object-fit: contain;
     margin-bottom: 10px;
     border: 5px solid black;
+}
+
+.other-work h3 {
+    text-align: center;
 }
 
 .contact-me {
